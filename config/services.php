@@ -30,10 +30,12 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+
     'BAYMOB_BASE_URL'=>env('BAYMOB_BASE_URL'),
-
-
-
     'BAYMOB_API_KEY'=>env('BAYMOB_API_KEY'),
+
+    'TAP_BASE_URL'=>env('TAP_BASE_URL'),
+    'TAP_SECRET_KEY'=>env('TAP_SECRET_KEY'),
+    'TAP_PUBLIC_KEY'=>env('TAP_PUBLIC_KEY'),
 
 ];
